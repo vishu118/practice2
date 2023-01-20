@@ -1,3 +1,14 @@
+const btn = document.querySelector('.btn') 
+const count = document.querySelector('.count') 
+
+btn.addEventListener('click',()=>{
+    count.innerText++
+    btn.innerText = "stop"
+})
+ 
+
+
+
 // let arr = [1,3,4,5,6]
 
 // const [a,b,c] = arr
